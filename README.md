@@ -49,4 +49,4 @@ This project also outputs the elapsed seconds to the **Serial Monitor** for veri
 ---
 ## Video Demonstration
 
-[[Watch the video](https://github.com/nikhilkhandelwal-DM-GY-6063-2024-Fall/HW11/blob/main/hw11.mp4)
+[Watch the video](https://github.com/nikhilkhandelwal-DM-GY-6063-2024-Fall/HW11/blob/main/hw11.mp4)
