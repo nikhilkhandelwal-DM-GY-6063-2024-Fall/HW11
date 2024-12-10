@@ -1,10 +1,10 @@
 const int ledPins[] = {2, 3, 4, 5, 6, 7};
 
 void setup() {
-  Serial.begin(9600); // Initialize Serial Communication
+  Serial.begin(9600); 
   for (int i = 0; i < 6; i++) {
     pinMode(ledPins[i], OUTPUT);
-    digitalWrite(ledPins[i], HIGH); // All LEDs ON initially
+    digitalWrite(ledPins[i], HIGH);
   }
 }
 
@@ -20,9 +20,8 @@ void loop() {
     }
   }
 
-  // Print the current time to the Serial Monitor
   Serial.print("Elapsed Seconds: ");
   Serial.println(seconds);
 
-  delay(500); // Update Serial Monitor every 500ms
+  delay(500);
 }
